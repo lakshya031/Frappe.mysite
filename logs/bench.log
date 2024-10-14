@@ -1,0 +1,256 @@
+2024-09-30 23:38:00,521 DEBUG cd main-bench && python3 -m venv env
+2024-09-30 23:38:04,545 DEBUG cd main-bench && /home/lakshya/Frappe/main-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-09-30 23:38:06,776 DEBUG cd main-bench && /home/lakshya/Frappe/main-bench/env/bin/python -m pip install --quiet wheel
+2024-09-30 23:38:07,938 LOG Getting frappe
+2024-09-30 23:38:07,938 DEBUG cd main-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-09-30 23:38:11,647 LOG Installing frappe
+2024-09-30 23:38:11,649 DEBUG cd /home/lakshya/Frappe/main-bench && /home/lakshya/Frappe/main-bench/env/bin/python -m pip install --quiet --upgrade -e /home/lakshya/Frappe/main-bench/apps/frappe 
+2024-09-30 23:38:59,102 DEBUG cd /home/lakshya/Frappe/main-bench/apps/frappe && yarn install --check-files
+2024-09-30 23:39:20,356 ERROR There was a problem while creating main-bench
+2024-09-30 23:41:40,459 WARNING /home/lakshya/.local/bin/bench init main-bench executed with exit code 1
+2024-09-30 23:42:27,910 INFO /home/lakshya/.local/bin/bench start
+2024-09-30 23:43:33,362 INFO /home/lakshya/.local/bin/bench start
+2024-09-30 23:51:25,634 INFO /home/lakshya/.local/bin/bench start
+2024-09-30 23:55:15,122 INFO /home/lakshya/.local/bin/bench start
+2024-09-30 23:59:05,090 INFO /home/lakshya/.local/bin/bench stop
+2024-10-01 18:51:46,802 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:51:47,094 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 18:51:47,103 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 18:51:47,105 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 18:51:47,110 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 18:53:05,404 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:53:25,655 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:54:19,000 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:54:28,394 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:56:34,908 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:56:35,231 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 18:56:35,238 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 18:56:35,267 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 18:56:35,273 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 18:57:11,947 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:57:12,220 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 18:57:12,237 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 18:57:12,255 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 18:57:12,298 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 18:57:29,915 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:57:30,172 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 18:57:30,207 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 18:57:30,229 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 18:57:30,242 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 18:58:26,124 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:58:26,383 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 18:58:26,388 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 18:58:26,431 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 18:58:26,453 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 18:58:42,458 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 18:58:42,700 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 18:58:42,732 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 18:58:42,746 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 18:58:42,748 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:01:16,303 INFO /home/lakshya/.local/bin/bench start --port 8001
+2024-10-01 19:01:16,309 WARNING /home/lakshya/.local/bin/bench start --port 8001 executed with exit code 2
+2024-10-01 19:01:22,044 INFO /home/lakshya/.local/bin/bench start --port 8001
+2024-10-01 19:01:22,048 WARNING /home/lakshya/.local/bin/bench start --port 8001 executed with exit code 2
+2024-10-01 19:01:31,764 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 19:01:32,020 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:01:32,031 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 19:01:32,106 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 19:01:32,183 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 19:01:36,502 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 19:01:36,730 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 19:01:36,777 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 19:01:36,820 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:01:36,877 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 19:01:59,916 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 19:02:00,184 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:02:00,195 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 19:02:00,243 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 19:02:00,249 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 19:02:13,905 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 19:02:14,153 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 19:02:14,186 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:02:14,219 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 19:02:14,256 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 19:03:57,722 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 19:03:57,967 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:03:58,007 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 19:03:58,012 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 19:03:58,013 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 19:05:24,424 INFO /home/lakshya/.local/bin/bench find
+2024-10-01 19:06:58,692 INFO /home/lakshya/.local/bin/bench new-app library_management
+2024-10-01 19:06:58,695 LOG creating new app library_management
+2024-10-01 19:08:09,894 LOG Installing library_management
+2024-10-01 19:08:09,895 DEBUG cd /home/lakshya/Frappe/main-bench && /home/lakshya/Frappe/main-bench/env/bin/python -m pip install --quiet --upgrade -e /home/lakshya/Frappe/main-bench/apps/library_management 
+2024-10-01 19:08:12,173 DEBUG bench build --app library_management
+2024-10-01 19:08:12,257 INFO /home/lakshya/.local/bin/bench build --app library_management
+2024-10-01 19:08:17,669 WARNING /home/lakshya/.local/bin/bench new-app library_management executed with exit code 1
+2024-10-01 19:10:09,381 INFO /home/lakshya/.local/bin/bench new-site new.localhost
+2024-10-01 19:12:27,077 INFO /home/lakshya/.local/bin/bench drop-site new.localhost
+2024-10-01 19:14:48,142 INFO /home/lakshya/.local/bin/bench new-site mysite.localhost
+2024-10-01 19:17:44,725 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 19:17:44,978 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 19:17:44,978 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:17:44,983 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 19:17:45,148 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 19:27:15,065 INFO /home/lakshya/.local/bin/bench --site mysite.localhost install-app library_management
+2024-10-01 19:28:26,114 INFO /home/lakshya/.local/bin/bench --site mysite.localhost list-apps
+2024-10-01 19:30:21,619 INFO /home/lakshya/.local/bin/bench --site mysite.localhost console
+2024-10-01 19:31:25,430 INFO /home/lakshya/.local/bin/bench --site mysite.localhost mariadb
+2024-10-01 19:32:10,702 INFO /home/lakshya/.local/bin/bench --site mysite.localhost backup
+2024-10-01 19:32:48,451 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-01 19:33:05,851 INFO /home/lakshya/.local/bin/bench start
+2024-10-01 19:33:06,207 INFO /home/lakshya/.local/bin/bench worker
+2024-10-01 19:33:06,281 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-01 19:33:06,449 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-01 19:33:06,482 INFO /home/lakshya/.local/bin/bench watch
+2024-10-01 19:44:47,378 INFO /home/lakshya/.local/bin/bench --site mysite.localhost mariadb
+2024-10-01 20:07:12,259 INFO /home/lakshya/.local/bin/bench --site mysite.localhost mariadb
+2024-10-01 20:51:49,739 INFO /home/lakshya/.local/bin/bench set-config -g server_script_enabled true
+2024-10-01 20:51:53,200 INFO /home/lakshya/.local/bin/bench set-config -g server_script_enabled true
+2024-10-02 11:37:29,548 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 11:37:29,856 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-02 11:37:29,859 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-02 11:37:29,864 INFO /home/lakshya/.local/bin/bench watch
+2024-10-02 11:37:29,864 INFO /home/lakshya/.local/bin/bench worker
+2024-10-02 12:35:55,487 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 12:36:22,789 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 12:36:23,218 INFO /home/lakshya/.local/bin/bench worker
+2024-10-02 12:36:23,219 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-02 12:36:23,231 INFO /home/lakshya/.local/bin/bench watch
+2024-10-02 12:36:23,294 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-02 13:22:36,008 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 13:22:40,124 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode
+2024-10-02 13:22:49,193 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 13:22:51,218 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 13:23:10,582 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:23:21,952 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:26:06,969 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:26:19,645 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:34:39,022 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:34:39,339 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-02 13:34:39,347 INFO /home/lakshya/.local/bin/bench worker
+2024-10-02 13:34:39,354 INFO /home/lakshya/.local/bin/bench watch
+2024-10-02 13:34:39,370 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-02 13:36:18,980 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 13:38:24,042 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 13:38:30,173 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:38:44,674 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:39:07,191 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:39:41,406 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:40:11,425 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:40:39,654 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode
+2024-10-02 13:40:46,141 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:54:59,607 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 13:55:50,273 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 13:55:53,568 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 13:55:56,127 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 14:03:00,319 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 14:03:01,099 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-02 14:03:01,126 INFO /home/lakshya/.local/bin/bench worker
+2024-10-02 14:03:01,145 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-02 14:03:01,186 INFO /home/lakshya/.local/bin/bench watch
+2024-10-02 14:03:21,388 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 14:03:28,991 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 14:03:29,278 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-02 14:03:29,326 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-02 14:03:29,333 INFO /home/lakshya/.local/bin/bench watch
+2024-10-02 14:03:29,363 INFO /home/lakshya/.local/bin/bench worker
+2024-10-02 14:06:17,109 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 14:06:21,411 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 14:06:23,453 INFO /home/lakshya/.local/bin/bench set-config -g developer_mode true
+2024-10-02 14:06:30,907 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 14:06:31,156 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-02 14:06:31,163 INFO /home/lakshya/.local/bin/bench watch
+2024-10-02 14:06:31,183 INFO /home/lakshya/.local/bin/bench worker
+2024-10-02 14:06:31,306 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-02 20:48:09,679 INFO /home/lakshya/.local/bin/bench start
+2024-10-02 20:48:10,147 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-02 20:48:10,313 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-02 20:48:10,319 INFO /home/lakshya/.local/bin/bench worker
+2024-10-02 20:48:10,493 INFO /home/lakshya/.local/bin/bench watch
+2024-10-03 09:59:42,624 INFO /home/lakshya/.local/bin/bench start
+2024-10-03 09:59:42,973 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-03 09:59:42,982 INFO /home/lakshya/.local/bin/bench worker
+2024-10-03 09:59:42,998 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-03 09:59:43,046 INFO /home/lakshya/.local/bin/bench watch
+2024-10-03 14:25:40,397 INFO /home/lakshya/.local/bin/bench start
+2024-10-03 14:27:33,084 INFO /home/lakshya/.local/bin/bench start
+2024-10-03 14:27:33,450 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-03 14:27:33,455 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-03 14:27:33,491 INFO /home/lakshya/.local/bin/bench watch
+2024-10-03 14:27:33,551 INFO /home/lakshya/.local/bin/bench worker
+2024-10-03 15:58:16,299 INFO /home/lakshya/.local/bin/bench start
+2024-10-03 15:58:17,538 INFO /home/lakshya/.local/bin/bench watch
+2024-10-03 15:58:17,583 INFO /home/lakshya/.local/bin/bench worker
+2024-10-03 15:58:17,605 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-03 15:58:17,649 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-03 16:07:24,413 INFO /home/lakshya/.local/bin/bench set-config -g server_script_enabled true
+2024-10-03 16:45:43,686 INFO /home/lakshya/.local/bin/bench set-config -g server_script_enabled true
+2024-10-03 22:54:06,933 INFO /home/lakshya/.local/bin/bench start
+2024-10-03 22:54:07,268 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-03 22:54:07,285 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-03 22:54:07,285 INFO /home/lakshya/.local/bin/bench watch
+2024-10-03 22:54:07,370 INFO /home/lakshya/.local/bin/bench worker
+2024-10-03 23:05:38,153 INFO /home/lakshya/.local/bin/bench start
+2024-10-03 23:05:38,468 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-03 23:05:38,586 INFO /home/lakshya/.local/bin/bench worker
+2024-10-03 23:05:38,599 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-03 23:05:38,636 INFO /home/lakshya/.local/bin/bench watch
+2024-10-04 09:50:22,296 INFO /home/lakshya/.local/bin/bench start
+2024-10-04 09:50:22,631 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-04 09:50:22,635 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-04 09:50:22,644 INFO /home/lakshya/.local/bin/bench worker
+2024-10-04 09:50:22,659 INFO /home/lakshya/.local/bin/bench watch
+2024-10-04 11:56:09,475 INFO /home/lakshya/.local/bin/bench --site mysite.localhost serve
+2024-10-04 11:56:26,799 INFO /home/lakshya/.local/bin/bench use mysite.localhost
+2024-10-04 11:57:18,739 INFO /home/lakshya/.local/bin/bench migrate
+2024-10-04 11:57:43,668 INFO /home/lakshya/.local/bin/bench migrate
+2024-10-04 12:10:20,144 INFO /home/lakshya/.local/bin/bench start
+2024-10-04 12:10:20,679 INFO /home/lakshya/.local/bin/bench watch
+2024-10-04 12:10:20,763 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-04 12:10:20,825 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-04 12:10:20,947 INFO /home/lakshya/.local/bin/bench worker
+2024-10-04 14:31:08,706 INFO /home/lakshya/.local/bin/bench --site mysite.localhost mariadb
+2024-10-04 15:18:07,961 INFO /home/lakshya/.local/bin/bench build
+2024-10-04 15:20:28,059 INFO /home/lakshya/.local/bin/bench build --apps frappe,erpnext
+2024-10-04 15:25:36,293 INFO /home/lakshya/.local/bin/bench watch --apps erpnext
+2024-10-04 15:47:22,398 INFO /home/lakshya/.local/bin/bench build
+2024-10-04 15:47:48,379 INFO /home/lakshya/.local/bin/bench build
+2024-10-04 15:48:29,641 INFO /home/lakshya/.local/bin/bench build --apps frappe,erpnext
+2024-10-04 15:48:53,173 INFO /home/lakshya/.local/bin/bench build --apps frappe,library_management
+2024-10-04 16:31:57,652 INFO /home/lakshya/.local/bin/bench build
+2024-10-04 16:38:30,357 INFO /home/lakshya/.local/bin/bench build
+2024-10-04 16:41:28,444 INFO /home/lakshya/.local/bin/bench build --apps frappe
+2024-10-06 14:02:55,095 INFO /home/lakshya/.local/bin/bench start
+2024-10-06 14:06:18,035 INFO /home/lakshya/.local/bin/bench start
+2024-10-06 14:06:18,424 INFO /home/lakshya/.local/bin/bench watch
+2024-10-06 14:06:18,445 INFO /home/lakshya/.local/bin/bench worker
+2024-10-06 14:06:18,448 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-06 14:06:18,483 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-09 10:18:53,580 INFO /home/lakshya/.local/bin/bench start
+2024-10-09 10:18:54,041 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-09 10:18:54,049 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-09 10:18:54,071 INFO /home/lakshya/.local/bin/bench watch
+2024-10-09 10:18:54,083 INFO /home/lakshya/.local/bin/bench worker
+2024-10-10 15:03:30,554 INFO /home/lakshya/.local/bin/bench start
+2024-10-10 15:06:26,856 INFO /home/lakshya/.local/bin/bench start
+2024-10-10 15:06:27,264 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-10 15:06:27,265 INFO /home/lakshya/.local/bin/bench watch
+2024-10-10 15:06:27,287 INFO /home/lakshya/.local/bin/bench worker
+2024-10-10 15:06:27,328 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-14 09:47:25,300 INFO /home/lakshya/.local/bin/bench start
+2024-10-14 09:47:25,625 INFO /home/lakshya/.local/bin/bench worker
+2024-10-14 09:47:25,636 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-14 09:47:25,657 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-14 09:47:25,679 INFO /home/lakshya/.local/bin/bench watch
+2024-10-14 09:52:28,113 INFO /home/lakshya/.local/bin/bench --site mysite.localhost mariadb
+2024-10-14 11:32:11,894 INFO /home/lakshya/.local/bin/bench start
+2024-10-14 11:32:12,460 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-14 11:32:12,475 INFO /home/lakshya/.local/bin/bench watch
+2024-10-14 11:32:12,585 INFO /home/lakshya/.local/bin/bench worker
+2024-10-14 11:32:12,603 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-14 11:53:40,049 INFO /home/lakshya/.local/bin/bench start
+2024-10-14 11:53:40,442 INFO /home/lakshya/.local/bin/bench watch
+2024-10-14 11:53:40,445 INFO /home/lakshya/.local/bin/bench serve --port 8000
+2024-10-14 11:53:40,450 INFO /home/lakshya/.local/bin/bench schedule
+2024-10-14 11:53:40,566 INFO /home/lakshya/.local/bin/bench worker

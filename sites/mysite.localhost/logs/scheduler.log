@@ -1,0 +1,2 @@
+2024-10-09 10:54:00,042 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for mysite.localhost
+2024-10-09 10:54:00,115 ERROR scheduler Skipped queueing frappe.automation.doctype.reminder.reminder.send_reminders because it was found in queue for mysite.localhost
